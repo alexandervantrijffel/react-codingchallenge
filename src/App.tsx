@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 import PokemonList from './PokemonList'
+import 'antd/dist/antd.css';
 
 const client = new ApolloClient({
   uri: 'https://graphql-pokemon.now.sh',
